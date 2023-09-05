@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+:root {
+
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    margin: 0px;
+    overflow: hidden;
+}
+h1 {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: clamp(2rem, 2vw, 4em);
+    font-weight: 500;
+    margin: 0px;
+    padding: 20px;
+}
